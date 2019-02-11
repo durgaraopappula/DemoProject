@@ -39,6 +39,7 @@ public class Test extends HttpServlet {
 		String string=request.getParameter("a");
 		PrintWriter pw=response.getWriter();
 		pw.print("I love uu");
+		pw.print("I love2 uu");
 	}
 
 }
