@@ -40,6 +40,7 @@ public class Test extends HttpServlet {
 		PrintWriter pw=response.getWriter();
 		pw.print("I love uu");
 		pw.print("I love2 uu");
+		pw.print("I love3 uu");
 	}
 
 }
