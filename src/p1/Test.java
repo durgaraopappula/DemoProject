@@ -38,7 +38,7 @@ public class Test extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String string=request.getParameter("a");
 		PrintWriter pw=response.getWriter();
-		pw.print(string);
+		pw.print("I love uu");
 	}
 
 }
